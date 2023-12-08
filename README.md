@@ -26,13 +26,13 @@ These are the three main operations that you will see in future implementations.
 
 ### Steps Taken To Build a Neural Network with Keras
 - Importing the packages
-- Decide on the network architecture
-- Add layers
-- Compile The Model
-- Train The Model
-- Plot
+- Decide on the network architecture `model = models.Sequential()`
+- Add layers `model.add(layers.Dense(units, activation, input_shape))`
+- Compile The Model `model.compile(optimizer=optimizers.RMSprop(lr=0.001),loss='mse',metrics=['accuracy'])`
+- Train The Model `history = model.fit(x_train,y_train,epochs=20,batch_size=512,validation_data=(x_val, y_val))`
+- Plot `history.history['loss']`
 - Make Predictions `y_hat = model.predict(x)`
-- Evaluate the Model
+- Evaluate the Model `model.evaluate(X_test, X_test_labels)`
 
 # ADDITIONAL RESOURCES
 
