@@ -56,16 +56,22 @@ The **`leaky ReLU`** solves the derivative issue by allowing for the activation 
 
 ![image](https://github.com/MarvinAgumba/NEURAL-NETWORKS-WALKTHROUGH/assets/122484885/5cc59a68-9a4d-484c-b5be-2bbe5b186169)
 
+## CNN - Convolutional Neural Networks
+CNNs are a useful model for image recognition due to their ability to recognize visual patterns at varying scales\
+CNNs are great for the following tasks:
+- Image classification
+- Object detection in images
+- Picture neural style transfer
 
+- Padding can be used to prevent shrinkage and make sure pixels at the edge of an image receive the necessary attention
+- Max pooling is typically used between convolutional layers to reduce the dimensionality
+- After developing the convolutional and pooling layers to form a base, the end of the network architecture still connects back to a densely connected network to perform classification
+  
+**Building CNNs with Kerras**
 
+![image](https://github.com/MarvinAgumba/NEURAL-NETWORKS-WALKTHROUGH/assets/122484885/4a5b4aa5-4f49-4d94-ba00-1403bcb898b6)
 
-
-
-
-
-
-
-# ADDITIONAL RESOURCES
+### ADDITIONAL RESOURCES
 
 - https://towardsdatascience.com/multi-layer-neural-networks-with-sigmoid-function-deep-learning-for-rookies-2-bf464f09eb7f
 
