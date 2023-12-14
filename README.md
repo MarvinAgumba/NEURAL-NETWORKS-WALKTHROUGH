@@ -57,6 +57,14 @@ The **`leaky ReLU`** solves the derivative issue by allowing for the activation 
 ![image](https://github.com/MarvinAgumba/NEURAL-NETWORKS-WALKTHROUGH/assets/122484885/5cc59a68-9a4d-484c-b5be-2bbe5b186169)
 
 
+
+
+
+
+
+
+
+
 # ADDITIONAL RESOURCES
 
 - https://towardsdatascience.com/multi-layer-neural-networks-with-sigmoid-function-deep-learning-for-rookies-2-bf464f09eb7f
